@@ -40,4 +40,5 @@ weather = pd.DataFrame({
     "image": image
 })
 
+weather.to_csv('weather.csv')
 print(weather)
